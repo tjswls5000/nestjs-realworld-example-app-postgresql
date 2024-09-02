@@ -1,7 +1,7 @@
 import { ArgumentMetadata, BadRequestException, HttpException, HttpStatus, Injectable, PipeTransform } from '@nestjs/common';
 import { plainToInstance } from 'class-transformer';
 import { validate, ValidationError } from 'class-validator';
-import { Dictionary } from '@mikro-orm/mysql';
+import { Dictionary } from '@mikro-orm/postgresql';
 
 @Injectable()
 export class ValidationPipe implements PipeTransform<any> {

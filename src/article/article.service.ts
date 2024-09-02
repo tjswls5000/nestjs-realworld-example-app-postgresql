@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { EntityManager, EntityRepository, FilterQuery, QueryOrder, wrap } from '@mikro-orm/mysql';
+import { EntityManager, EntityRepository, FilterQuery, QueryOrder, wrap } from '@mikro-orm/postgresql';
 import { InjectRepository } from '@mikro-orm/nestjs'
 
 import { User } from '../user/user.entity';

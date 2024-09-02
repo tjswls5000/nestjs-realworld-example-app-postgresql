@@ -1,4 +1,4 @@
-import { Entity, ManyToOne, PrimaryKey, Property } from '@mikro-orm/mysql';
+import { Entity, ManyToOne, PrimaryKey, Property } from '@mikro-orm/postgresql';
 import { User } from '../user/user.entity';
 import { Article } from './article.entity';
 

@@ -1,4 +1,4 @@
-import { ArrayType, Collection, Entity, EntityDTO, ManyToOne, OneToMany, PrimaryKey, Property, wrap } from '@mikro-orm/mysql';
+import { ArrayType, Collection, Entity, EntityDTO, ManyToOne, OneToMany, PrimaryKey, Property, wrap } from '@mikro-orm/postgresql';
 import slug from 'slug';
 
 import { User } from '../user/user.entity';

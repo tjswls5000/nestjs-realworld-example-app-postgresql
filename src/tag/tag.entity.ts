@@ -1,4 +1,4 @@
-import { Entity, PrimaryKey, Property } from '@mikro-orm/mysql';
+import { Entity, PrimaryKey, Property } from '@mikro-orm/postgresql';
 
 @Entity()
 export class Tag {
